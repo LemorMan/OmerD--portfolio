@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omer Dahari | Cybersecurity Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #161b22;
+      padding: 40px;
+      text-align: center;
+      border-bottom: 1px solid #30363d;
+      animation: fadeInDown 0.8s ease-out;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    section:nth-of-type(2) { animation-delay: 0.2s; }
+    section:nth-of-type(3) { animation-delay: 0.4s; }
+    section:nth-of-type(4) { animation-delay: 0.6s; }
+    section:nth-of-type(5) { animation-delay: 0.8s; }
+    section:nth-of-type(6) { animation-delay: 1.0s; }
+
+    h2 {
+      color: #58a6ff;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 5px;
+    }
+    .project-box {
+      background-color: #161b22;
+      padding: 20px;
+      margin-bottom: 15px;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .project-box:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+      border-color: #58a6ff;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    a:hover {
+      color: #79c0ff;
+    }
+    .diagram {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 16px;
+      font-family: "Courier New", monospace;
+      font-size: 0.85rem;
+      overflow-x: auto;
+      margin-top: 10px;
+      white-space: pre;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Omer Dahari</h1>
+  <p>SOC Analyst • Cybersecurity • AI Tools Builder</p>
+  <p>📍 Oranit, Israel • 📧 omersecurly@gmail.com</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a SOC Analyst with hands-on experience in end-to-end incident handling, SIEM/EDR tools,
+    network security, and AI-driven investigation helpers. I enjoy designing intelligent systems
+    that make SOC work faster, clearer, and more consistent.
+  </p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="project-box">
+    <h3>AI SOC Investigation Agent</h3>
+    <p>
+      A bilingual (EN/HE) autonomous investigation agent designed for MSSP-grade SOC environments.
+      It performs triage, enrichment, correlation, MITRE ATT&CK mapping, risk scoring and generates
+      delivery-ready Slack, email, and deep IR reports with explainable reasoning and
+      zero-hallucination rules. (Logic built, not implemented as SOAR automation.)
+    </p>
+
+    <div class="diagram">
+AI Alert ➜ Agent Intake
+  ➜ Enrichment (IPs, hashes, users, hosts)
+    ➜ Correlation (timeline, related events)
+      ➜ MITRE ATT&CK Mapping
+        ➜ Risk Scoring & Narrative
+          ➜ Output:
+             • Slack triage summary
+             • Email-style IR report
+             • Deep investigation view
+    </div>
+  </div>
+
+  <div class="project-box">
+    <h3>Natural-Language to ATP Query Generator</h3>
+    <p>
+      A tool that converts natural-language questions into fully structured Microsoft Defender ATP
+      queries, making investigations more intuitive and faster. Currently expanding to support
+      Cortex XDR and additional security platforms.
+    </p>
+
+    <div class="diagram">
+Analyst Question (Natural Language)
+  ➜ Intent & Entity Parsing
+    ➜ KQL / ATP Query Builder
+      ➜ Output:
+         • Ready-to-run ATP query
+         • Future: Cortex XDR query
+    </div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>SIEM: QRadar, Splunk</li>
+    <li>EDR/XDR: Cortex XDR, SentinelOne, CrowdStrike Falcon, Microsoft Defender for Endpoint (ATP)</li>
+    <li>Networking • Windows/Linux • Wireshark • Python (security tools)</li>
+    <li>AI helpers for SOC workflows • Investigation logic design</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Resume</h2>
+  <p><a href="#">Download Resume (PDF)</a> — Add your link here</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:omersecurly@gmail.com">omersecurly@gmail.com</a></p>
+</section>
+
+</body>
+</html>
