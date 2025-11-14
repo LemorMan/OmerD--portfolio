@@ -1,6 +1,6 @@
 # OmerD--portfolio
 
-# 👋 Hi, I'm Omer Dahari  
+# 👋 Hi, I'm Omer
 **SOC Analyst | Cybersecurity | AI Tools Builder**
 
 📍 Oranit, Israel  
