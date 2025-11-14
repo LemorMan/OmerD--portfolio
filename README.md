@@ -24,7 +24,6 @@ and strict anti-hallucination logic.
 > Logic and design built, not yet wired to a SOAR platform.
 
 **High-Level Architecture:**
-
 ```text
 [Alert / Event]
       ↓
@@ -46,6 +45,7 @@ and strict anti-hallucination logic.
   • Email-style IR report
   • Deep-dive investigation narrative
 
+```
 ### 🔹 Natural-Language to ATP Query Generator
 
 A tool that converts natural language into Microsoft Defender ATP KQL queries, making
@@ -53,6 +53,7 @@ investigations more intuitive and reducing time to query. Currently expanding to
 Cortex XDR and other platforms.
 
 High-Level Architecture:
+```text
 
 text
 Copy code
@@ -71,6 +72,9 @@ Copy code
 [Output: Ready-to-run ATP query]
       ↓
 [Future: Cortex XDR / other platforms]
+
+```
+
 🧰 Skills
 SIEM: QRadar, Splunk
 
