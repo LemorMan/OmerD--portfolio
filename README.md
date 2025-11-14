@@ -3,7 +3,7 @@
 # 👋 Hi, I'm Omer
 **SOC Analyst | Cybersecurity | AI Tools Builder**
 
-📍 Oranit, Israel  
+📍 Central District, Israel  
 📧 omersecurly@gmail.com  
 
 ---
