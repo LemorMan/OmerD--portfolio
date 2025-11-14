@@ -84,7 +84,7 @@ Tools: Wireshark, Event Viewer, Python (security tools)
 
 Domains: Incident Response, Alert Triage, Investigation Logic, MITRE ATT&CK (familiarity)
 
-OS: Windows, Linux (fundamentals)
+OS: Windows, Windows server, Linux (fundamentals)
 
 📬 Contact
 📧 omersecurly@gmail.com
