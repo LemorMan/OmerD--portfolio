@@ -86,8 +86,5 @@ Domains: Incident Response, Alert Triage, Investigation Logic, MITRE ATT&CK (fam
 
 OS: Windows, Linux (fundamentals)
 
-📄 Resume
-Link to my resume
-
 📬 Contact
 📧 omersecurly@gmail.com
